@@ -1,0 +1,21 @@
+{
+  "devDependencies": {
+    "git-format-staged": "^3.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "prettier": {
+    "overrides": [
+      {
+        "files": "*.gohtml",
+        "options": {
+          "parser": "html"
+        }
+      }
+    ],
+    "printWidth": 119
+  }
+}
